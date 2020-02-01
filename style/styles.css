@@ -2,4 +2,11 @@ body {
 	font-family: GFS Artemisia;
 }
 
-
+header {
+	background-color: #84848f;
+	padding: 20px 20px;
+	position: relative;
+}
+a {
+	color: white;
+}
