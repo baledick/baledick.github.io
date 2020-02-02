@@ -1,12 +1,21 @@
-h1 {
+a {
+	text-decoration:none;
+	color: black;
+}
+.my-name {
 	font-family: GFS Artemisia;
 }
 
-header {
-	background-color: #84848f;
-	padding: 20px 20px;
-	position: relative;
+.ontop {
+	float: top;
+	padding: 0 20px 0;
 }
-a {
+.in-site-link{
 	color: white;
+	background-color: #84848f;
+	text-align: center;
+	display: block;
+	width: 80px;
+	height: 24px;
 }
+
