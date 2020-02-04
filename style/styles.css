@@ -1,16 +1,42 @@
-a {
-	text-decoration:none;
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: 'GFS Didot', serif;
+}
+.navbar {
+	padding: .8rem;
+}
+.navbar-nav li {
+	padding-right: 30px;
+}
+.nav-link {
+	font-size: 1.3em !important;
+}
+.welcome {
+	border-top: 2px solid #b4b4b4;
+}
+.uni {
+	text-decoration: none;
 	color: black;
 }
-.my-name {
-	font-family: GFS Artemisia;
+.myname {
+	float: left;
 }
-
+.myface {
+	width: 80%;
+	height: 80%;
+	float: right;
+}
+#main {
+overflow: auto;
+padding-bottom:346px;
+}
 .ontop {
 	float: top;
 	padding: 0 20px 0;
 }
 .in-site-link{
+	text-decoration: none;
 	color: white;
 	background-color: #84848f;
 	text-align: center;
@@ -18,4 +44,14 @@ a {
 	width: 80px;
 	height: 24px;
 }
-
+.donates {
+	width: 80%;
+	height: 80%;
+}
+footer {
+	background-color: #84848f;
+	border-bottom: 5px solid #84848f;
+	color: white;
+	text-indent: 20px;
+	padding-top: 1rem;
+}
