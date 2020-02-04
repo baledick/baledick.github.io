@@ -3,22 +3,70 @@
 	<head>
 		<title> valatsos </title>
 		<link rel="stylesheet" href="style/styles.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+		<link href="style.css" rel="stylesheet">
 	</head>
-	<body> 
-		<div class=ontop>
-			<div>
-			<a class="in-site-link" href="files/Curriculum_Vitae.pdf">cv</a>
+	<body>
+		<!-- Top Bar -->
+	<div class="navbar navbar-expand-md navbar-light bg-light">
+		<div class="container-fluid ">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link active" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="files/Curriculum_Vitae.pdf">Bio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="research.html">Research</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="error.html">Books</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="error.html">Music</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="error.html">Bad Lyrics Finder</a>
+						</li>
+				</ul>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="error.html">Contact</a>
+					</li>
+				</ul>
 			</div>
 		</div>
-
-		<h1 class="my-name"> 
-			Vasilis Valatsos
-		</h1>
-		<p>
-		B.Sc. 
-		<!--<del> B.Sc. </del> M.Sc.-->
-		@ <a href="http://en.phys.uoa.gr/">NKUoA</a>
-		<!--<del> NKUoA </del> dunno lmao-->
-		</p>
+	</div>
+	<hr class="invisible">
+		<!-- Home -->
+	<div class="container-fluid padding">
+		<div class="row welcome">
+			<div class="col-xs-12 col-sm-4 float-right">
+				<img src="files/pic.jpg" class="img-thumbnail myface">
+			</div>
+			<div class="col-xs-12 col-sm-8 float-left">
+				<h1 class="my-name">
+					Vasilis Valatsos
+				</h1>
+				<hr class="my-4">
+				<p>
+				<!--<del> M.Sc. </del> -->	B.Sc. at the
+					<a class="uni" width="10%" href="http://en.phys.uoa.gr/">National and Kapodistrian University of Athens
+					</a>
+				<!--<del> NKUoA </del> dunno lmao-->
+				</p>
+			</div>
+		</div>
+	</div>
 	</body>
 </html>

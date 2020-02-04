@@ -1,11 +1,16 @@
-a {
+.uni {
 	text-decoration:none;
 	color: black;
 }
-.my-name {
-	font-family: GFS Artemisia;
+.myname {
+	font-family: GFS Didot;
+	float: left;
 }
-
+.myface {
+	width: 80%;
+	height: 80%;
+	float: right;
+}
 .ontop {
 	float: top;
 	padding: 0 20px 0;
@@ -18,4 +23,3 @@ a {
 	width: 80px;
 	height: 24px;
 }
-
