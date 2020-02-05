@@ -5,15 +5,18 @@
 		<link rel="stylesheet" href="style/styles.css">
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="https://fonts.googleapis.com/css?family=GFS+Didot&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-		<link href="style.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	</head>
 	<body>
 		<!-- Top Bar -->
 		<div class="navbar navbar-expand-md navbar-light bg-light">
 			<div class="container-fluid ">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarResponsive">
 					<ul class="navbar-nav mr-auto">
@@ -21,7 +24,7 @@
 							<a class="nav-link active" href="#">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="files/Curriculum_Vitae.pdf">Bio</a>
+							<a class="nav-link" href="files/Bio/Curriculum_Vitae.pdf">Bio</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="research.html">Research</a>
@@ -48,38 +51,78 @@
 			</div>
 		</div>
 		<hr class="invisible">
+		<hr class="invisible">
 		<!-- Home -->
-		<div class="container-fluid padding" id="main">
+		<div class="container-fluid padding" id="container">
 			<div class="row welcome">
-				<div class="col-xs-12 col-sm-4 float-right">
-					<img src="files/pic.jpg" class="img-thumbnail myface">
+				<div class="col-xs-12 col-sm-3">
+					<img src="files/Home/pic.jpg" class="img-thumbnail myface">
 				</div>
-				<div class="col-xs-12 col-sm-8 float-left">
+				<div class="col-xs-12 col-sm-9 float-left">
 					<h1 class="my-name">
 						Vasilis Valatsos
 					</h1>
 					<hr class="my-4">
-					<p>
-						<!--<del> M.Sc. </del> -->	B.Sc. at the
-						<a class="uni" width="10%" href="http://en.phys.uoa.gr/">National and Kapodistrian University of Athens
+					<h4>
+						<!--<del> M.Sc. </del> -->	B.Sc. <br>
+						<a class="uni" width="10%" href="http://en.phys.uoa.gr/">National and Kapodistrian University of Athens,<br>
+						Department of Physics.
 						</a>
 						<!--<del> NKUoA </del> dunno lmao-->
-					</p>
+					</h4>
 				</div>
+			</div>
+			<hr class="invisible">
+			<hr class="invisible">
+			<hr class="invisible">
+			<div class="col-sm-12 col-md-6">
+				<h3> Things I've Done
+				</h3>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Title</th>
+							<th>Description</th>
+							<th>Link</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Presentation on Anderson Localisation</td>
+							<td>As part of the course "Stochastic Processes", we had to make a presentation on a subject related to the course. The presentation is in Hellenic.</td>
+							<td>
+								<a href="files/Home/pdf/Beamer.pdf">Presentation</a>
+								<a href="files/Home/pdf/Transcript.pdf">Transcript</a>
+							</td>
+						</tr>
+						<tr>
+							<td>A Pocket Guide to LIbertarianism</td>
+							<td>A small, introductory booklet on the essentials of Libertarian ideology. It was written by me, during my membership on Students for Liberty.
+							<td>WIP</td>
+						</tr>
+						<tr>
+							<td>Moral Truth is a Lie, Here Are Pictures of Funny Hippos</td>
+							<td>A series of pictures of hippos I found funny.</td>
+							<td>WIP</td>
+						</tr>
+				</table>
 			</div>
 		</div>
 		<!-- Footer -->
-		<footer>
+		<footer class="sticky-bottom">
 			<div class="container-fluid padding">
 				<div class="row">
-					<div class="col-10">
-						<h4>  </h4>
+					<div class="col-sm-12 col-md-9">
+						<p id="bottom-text1"> Yet Another Bootstrap Website </p>
 					</div>
-					<div class="col-2 float-right">
+					<div class="col-xs-12 col-sm-9 col-md-1"
+						<p id="bottom-text2">UwU what's this?</p>
+					</div>
+					<div class="col-xs-12 col-sm-3 col-md-2">
 						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 							<input type="hidden" name="cmd" value="_s-xclick" />
 							<input type="hidden" name="hosted_button_id" value="EHYJE9LPGTSKY" />
-							<input type="image"  class="donates" src="files/button.png" border="0" name="submit" title="Oh wow how nice of you" alt="" />
+							<input type="image"  class="donates" src="files/misc/button.png" border="0" name="submit" title="Oh wow how nice of you" alt="" />
 							<img border="0" src="https://www.paypal.com/en_GR/i/scr/pixel.gif" width="1" height="1"/>
 						</form>
 					</div>

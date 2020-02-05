@@ -1,6 +1,9 @@
+* {
+	margin: 0;
+	padding: 0;
+}
 html, body {
 	height: 100%;
-	width: 100%;
 	font-family: 'GFS Didot', serif;
 }
 .navbar {
@@ -22,11 +25,10 @@ html, body {
 .myface {
 	width: 80%;
 	height: 80%;
-	float: right;
 }
-#main {
-overflow: auto;
-padding-bottom:380px;
+#container {
+	height: auto;
+	overflow: auto;
 }
 .ontop {
 	float: top;
@@ -42,13 +44,22 @@ padding-bottom:380px;
 	height: 24px;
 }
 .donates {
-	width: 80%;
-	height: 80%;
+	width: 50%;
+	height: 50%;
+	float: left;
 }
 footer {
 	background-color: #84848f;
+	border-top: 15px solid #84848f;
 	border-bottom: 5px solid #84848f;
 	color: white;
-	text-indent: 20px;
-	padding-top: 1rem;
+}
+#bottom-text1 {
+	float: left;
+	font-size: 70%;
+}
+#bottom-text2 {
+	float: right;
+	font-size: 70%;
+	text-align: center;
 }
