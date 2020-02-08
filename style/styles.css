@@ -58,3 +58,11 @@ footer {
 	font-size: 70%;
 	text-align: center;
 }
+#books {
+   margin: auto;
+   width: 70% !important;
+}
+#tabs{
+	color: black;
+	text-align: center;
+}
