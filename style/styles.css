@@ -26,10 +26,6 @@ html, body {
 	width: 80%;
 	height: 80%;
 }
-#container {
-	height: auto;
-	overflow: auto;
-}
 .ontop {
 	float: top;
 	padding: 0 20px 0;
@@ -43,12 +39,6 @@ html, body {
 	width: 80px;
 	height: 24px;
 }
-footer {
-	background-color: #84848f;
-	border-top: 15px solid #84848f;
-	border-bottom: 5px solid #84848f;
-	color: white;
-}
 #bottom-text1 {
 	float: left;
 	font-size: 70%;
@@ -58,7 +48,7 @@ footer {
 	font-size: 70%;
 	text-align: center;
 }
-#books {
+#books, #papers {
    margin: auto;
    width: 70% !important;
 }

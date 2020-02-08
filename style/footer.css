@@ -1,0 +1,17 @@
+#body {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 70px;
+}
+
+#footer {
+	background-color: #84848f;
+	color: white;
+	position: relative;
+	height: 70px;
+	margin-top: -70px;
+	clear: both;
+}
