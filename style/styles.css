@@ -40,6 +40,7 @@ html, body {
 	height: 24px;
 }
 #bottom-text1 {
+	padding-top: 35px;
 	float: left;
 	font-size: 70%;
 }
@@ -55,4 +56,7 @@ html, body {
 #tabs{
 	color: black;
 	text-align: center;
+}
+#donate {
+	padding-top: 15px;
 }
