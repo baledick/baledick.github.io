@@ -2,10 +2,11 @@
 <html lang="en-GB">
   <head>
     <title>Contact</title>
-    <link rel="stylesheet" type="text/css" href="style/footer.css">
-    <link rel="stylesheet" href="style/styles.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style/footer.css">
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -14,67 +15,75 @@
   </head>
   <body>
     <div id="body">
-    <!-- Header -->
-    <body>
-      <div class="navbar navbar-expand-md navbar-light bg-light">
-        <div class="container-fluid ">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="files/Bio/Curriculum_Vitae.pdf">Bio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="research.html">Research</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://github.com/baledick">GitHub</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="books.html">Books</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="music.html">Music</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="lyrics.html">Bad Lyrics Finder</a>
-              </li>
-            </ul>
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!-- Main -->
-      <div class="container-fluid" id="main">
+      <!-- Header -->
+				<div class="navbar navbar-expand-md navbar-light" style="background-color: #efefef;">
+					<div class="container-fluid ">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarResponsive">
+							<ul class="navbar-nav mr-auto">
+								<li class="nav-item">
+									<a class="nav-link" href="index.html">Home</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="files/Bio/Curriculum_Vitae.pdf">Bio</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="research.html">Research</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="https://github.com/baledick">GitHub</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="books.html">Books</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="music.html">Music</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="lyrics.html">Bad Lyrics Finder</a>
+								</li>
+							</ul>
+							<ul class="navbar-nav ml-auto">
+								<li class="nav-item">
+									<a class="nav-link active" href="#">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<hr class="invisible">
+				<hr class="invisible">
+
+				<!-- Main -->      <div class="container-fluid" id="main">
         <h1>To Be Made</h1>
 	<hr>
 	<p> Obviously I will not add personal contact on a web page until I migrate it on a server.</p>
       </div>
     </div>
+
     <!-- Footer -->
     <footer id="footer">
       <div class="container-fluid padding">
         <div class="row">
-          <div class="col-xs-6 col-sm-9 col-md-10">
+          <div class="col-xs-6 col-sm-4 col-md-4">
             <p id="bottom-text1"> Yet Another Bootstrap Website </p>
           </div>
-          <div class="col-xs-6 col-sm-3 col-md-2">
+          <div id="links" class="col-xs-6 col-sm-4 col-md-4">
+            <a href="https://github.com/baledick">
+              <i class="fa fa-github" style="font-size:24px;color:white">
+              </i>
+            </a>
+          </div>
+            <!-- <div class="col-xs-6 col-sm-3 col-md-2">
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
               <input type="hidden" name="cmd" value="_s-xclick" />
               <input type="hidden" name="hosted_button_id" value="A5THMPRCXJSP4" />
               <input type="image" src="https://raw.githubusercontent.com/baledick/baledick.github.io/master/files/misc/button.png" border="0" name="submit" title="I'm not gonna stop you." alt="" />
               <img alt="" border="0" src="https://www.paypal.com/en_GR/i/scr/pixel.gif" width="1" height="1" />
             </form>
-          </div>
+          </div> -->
         </div>
       </div>
     </footer>

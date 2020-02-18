@@ -39,16 +39,6 @@ html, body {
 	width: 80px;
 	height: 24px;
 }
-#bottom-text1 {
-	padding-top: 35px;
-	float: left;
-	font-size: 70%;
-}
-#bottom-text2 {
-	float: right;
-	font-size: 70%;
-	text-align: center;
-}
 #books, #papers {
    margin: auto;
    width: 70% !important;

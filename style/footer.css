@@ -8,9 +8,25 @@
 }
 
 #footer {
-	background-color: #84848f;
+	background-color: #747474;
 	color: white;
 	position: relative;
 	height: 70px;
 	margin-top: -70px;	clear: both;
+}
+
+#links {
+  padding-top: 20px;
+}
+
+#bottom-text1 {
+	padding-top: 35px;
+	float: left;
+	font-size: 70%;
+}
+
+#footer-link {
+	text-align: center;
+  font-size: 32px;
+  color: black;
 }
