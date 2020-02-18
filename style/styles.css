@@ -30,14 +30,9 @@ html, body {
 	float: top;
 	padding: 0 20px 0;
 }
-.in-site-link{
+.site-link{
 	text-decoration: none;
 	color: white;
-	background-color: #84848f;
-	text-align: center;
-	display: block;
-	width: 80px;
-	height: 24px;
 }
 #books, #papers {
    margin: auto;
@@ -46,7 +41,4 @@ html, body {
 #tabs{
 	color: black;
 	text-align: center;
-}
-#donate {
-	padding-top: 15px;
 }
