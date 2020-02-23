@@ -12,90 +12,164 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 		<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+		<script src="javascript/booktabs.js" defer></script>
 	</head>
 	<body>
 		<div id="body">
 			<!-- Header -->
-				<div class="navbar navbar-expand-md navbar-light" style="background-color: #efefef;">
-					<div class="container-fluid ">
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-						<div class="collapse navbar-collapse" id="navbarResponsive">
-							<ul class="navbar-nav mr-auto">
-								<li class="nav-item">
-									<a class="nav-link" href="index.html">Home</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="files/Bio/Curriculum_Vitae.pdf">Bio</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="research.html">Research</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link active" href="books.html">Books</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="music.html">Music</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="lyrics.html">Bad Lyrics Finder</a>
-								</li>
-							</ul>
-							<ul class="navbar-nav ml-auto">
-								<li class="nav-item">
-									<a class="nav-link" href="contact.html">Contact</a>
-								</li>
-							</ul>
+			<div class="navbar navbar-expand-md navbar-light" style="background-color: #efefef;">
+				<div class="container-fluid ">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarResponsive">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="files/Bio/Curriculum_Vitae.pdf">Bio</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="research.html">Research</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="books.html">Books</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="music.html">Music</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="lyrics.html">Bad Lyrics Finder</a>
+							</li>
+						</ul>
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="contact.html">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<hr class="invisible">
+			<hr class="invisible">
+			<!-- Main -->
+			<div class="container-fluid" id="main">
+				<div class="col-12" id="books">
+					<ul class="nav nav-tabs nav-justifies">
+						<li  class="nav-item">
+							<a href="#physics" class="nav-link active" id="tabs" data-toggle="tab"> Physics </a>
+						</li>
+						<li  class="nav-item">
+							<a href="#politics" class="nav-link" id="tabs" data-toggle="tab"> Politics </a>
+						</li>
+						<li class="nav-item">
+							<a href="#misc" class="nav-link" id="tabs" data-toggle="tab"> Misc </a>
+						</li>
+					</ul>
+					<div class="tab-content">
+						<div role="tabpanel" class="tab-pane active"  id="physics">
+							<table class="table table-bordered table-hover">
+								<thead>
+									<tr>
+										<th>Title</th>
+										<th>Description</th>
+										<th>Link</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td> Quantum Mechanics I </td>
+										<td> </td>
+										<td> WIP </td>
+									</tr>
+									<tr>
+										<td> Quantum Mechanics II</td>
+										<td> </td>
+										<td> WIP </td>
+									</tr>
+									<tr>
+										<td> Statistical Physics</td>
+										<td> </td>
+										<td> WIP </td>
+									</tr>
+									<tr>
+										<td> Nuclear Physics</td>
+										<td> </td>
+										<td> WIP </td>
+									</tr>
+									<tr>
+										<td> Elementary Particle Physics</td>
+										<td> </td>
+										<td> WIP </td>
+									</tr>
+									<tr>
+										<td> Quantum Mechanics III </td>
+										<td> </td>
+										<td> WIP </td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane"  id="politics">
+							<table class="table table-bordered table-hover">
+								<thead>
+									<tr>
+										<th>Title</th>
+										<th>Description</th>
+										<th>Link</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+									<td> <br>
+										Libertarianism: <br> A Pocket Guide </td>
+									<td>
+										This is a small booklet that I wrote for the Greek Students for Liberty con, and was handed out as part of the attendance swag.
+										It serves as an introductory text into the core principles of Libertarianism, approaching them from a theoretical axiomatic standpoint, inspired from thought experiments.
+									</td>
+									<td> <br> <br>
+										<a href="files/Books/PocketGuide.pdf">PDF</a>
+									</td>
+									</tr>
+									<tr>
+										<td> <br>
+											Protestant Libertarianism <br> (Working Title)
+										</td>
+										<td>
+											 In this book, we take a look at protestant ethics, and how Classical Libertarianism stems from them.
+											 It is then compared to other modes of ethics such as Orthodoxy, Catholicism and Ancient Greek schools of philosophy.
+											 The purpose of this book is to show why unethical Capitalism should better be called Protestant Libertarianismand, why modern Libertarian countries suffer from Corporatism and crony capitalism, and why Libertarianism requires a strong spiritual and ethical background to achieve mainstream popularity in non-Protestant Western countries.
+										 </td>
+										<td> <br> <br> <br>
+											 Not Started
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane"  id="misc">
+							<table class="table table-bordered table-hover">
+								<thead>
+									<tr>
+										<th>Title</th>
+										<th>Description</th>
+										<th>Link</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td> </td>
+										<td> </td>
+										<td> </td>
+									</tr>
+								</tbody>
+							</table>
 						</div>
 					</div>
 				</div>
-				<hr class="invisible">
-				<hr class="invisible">
-
-				<!-- Main -->
-    <div class="container-fluid" id="main">
-      <div class="col-12" id="books">
-        <ul class="nav nav-tabs nav-justifies">
-          <li  class="nav-item"><a href="#" class="nav-link active" id="tabs"> Physics </a></li>
-          <li  class="nav-item"><a href="#" class="nav-link" id="tabs"> Politics </a></li>
-          <li  class="nav-item"><a href="#" class="nav-link" id="tabs"> Misc </a></li>
-        </ul>
-        <table class="table table-bordered table-hover">
-          <thead>
-            <tr>
-              <th>Title</th>
-              <th>Description</th>
-              <th>Link</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-            </tr>
-
-            <tr>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-            </tr>
-            <tr>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-            </tr>
-            <tr>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+			</div>
 		</div>
-    </div>
 		<!-- Footer -->
 		<footer id="footer">
 			<div class="container-fluid padding">
@@ -109,8 +183,8 @@
 							</i>
 						</a>
 						<a href="https://www.youtube.com" class="site-link">
-              <i class="fab fa-youtube" style="color:white"></i>
-            </a>
+							<i class="fab fa-youtube" style="color:white"></i>
+						</a>
 						<a href="https://www.linkedin.com/" class="site-link">
 							<i class="fab fa-linkedin" style="color:white">
 							</i>
@@ -123,5 +197,5 @@
 				</div>
 			</div>
 		</footer>
-  </body>
+	</body>
 </html>
