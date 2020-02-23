@@ -8,17 +8,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
 		<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 		<script
-			  src="http://code.jquery.com/jquery-3.4.1.js"
-			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-			  crossorigin="anonymous">
+				src="http://code.jquery.com/jquery-3.4.1.js"
+				integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+				crossorigin="anonymous">
 		</script>
-		<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js">
-		</script>
+		<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+		<script src="javascript/research.js"></script>
 	</head>
   <body>
 		<div id="body">
@@ -64,7 +65,7 @@
 		<div id="main">
 		<div class="container-fluid" id="papers">
     	<h1>lmao I wish</h1>
-    	<table class="table table-hover table-bordered">
+    	<table class="table table-hover table-bordered" id="Paper">
 	 			<thead>
 	    		<tr>
 	      		<th>Paper</th>
@@ -86,13 +87,31 @@
 						<td> </td>
 						<td> </td>
 	    		</tr>
-	    		<tr>
+					<tr>
 						<td> </td>
 						<td> </td>
 						<td> </td>
 						<td> </td>
 	    		</tr>
-    		</tbody>
+					<tr>
+						<td> </td>
+						<td> </td>
+						<td> </td>
+						<td> </td>
+	    		</tr>
+					<tr>
+						<td> </td>
+						<td> </td>
+						<td> </td>
+						<td> </td>
+	    		</tr>
+					<tr>
+						<td> </td>
+						<td> </td>
+						<td> </td>
+						<td> </td>
+	    		</tr>
+				</tbody>
 			</table>
 		</div>
 		</div>
@@ -124,10 +143,5 @@
 				</div>
 			</div>
 		</footer>
-		<script>
-			$(document).ready( function () {
-			$('#Papers').DataTable();
-			} );
-		</script>
 	</body>
 </html>
