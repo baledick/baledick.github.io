@@ -1,13 +1,11 @@
 .navbar {
 	padding: .8rem;
 	position: relative;
-	top: 0;
-	left:0;
 	width: 100%;
 }
 .navbar-nav li {
-	padding-right:30px;
+	padding-right: 30px;
 }
 .nav-lin {
-	font-size: 1.3em !important;
+	font-size: 1.5em !important;
 }
