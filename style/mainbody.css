@@ -6,15 +6,6 @@ html, body {
 	height: 100%;
 	font-family: 'GFS Didot', serif;
 }
-.navbar {
-	padding: .8rem;
-}
-.navbar-nav li {
-	padding-right: 30px;
-}
-.nav-link {
-	font-size: 1.3em !important;
-}
 .uni {
 	text-decoration: none;
 	color: black;
