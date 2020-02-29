@@ -36,4 +36,6 @@ html, body {
 #lyrics{
     display: none;
 }
-    
+#lyricsquery {
+	padding-left: 70px;
+}
