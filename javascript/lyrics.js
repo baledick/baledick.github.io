@@ -1,4 +1,8 @@
-// sets a timer of 7 seconds to show the loading image
-setTimeout(function() {
-    ;
-}, (7 * 1000));
+function ShowLyrics() {
+  var x = document.getElementById("lyrics");
+  if (x.style.display == "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}

@@ -33,3 +33,7 @@ html, body {
 	color: black;
 	text-align: center;
 }
+#lyrics{
+    display: none;
+}
+    
