@@ -11,8 +11,10 @@
 	background-color: #747474;
 	color: white;
 	position: relative;
-	height: 70px;
-	margin-top: -70px;	clear: both;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	clear: both;
 }
 
 #bottom-text1 {
