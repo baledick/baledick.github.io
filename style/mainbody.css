@@ -6,7 +6,7 @@ html, body {
 	height: 100%;
 	font-family: 'GFS Didot', serif;
 }
-.uni {
+.generic {
 	text-decoration: none;
 	color: black;
 }
@@ -36,6 +36,6 @@ html, body {
 #lyrics{
     display: none;
 }
-#lyricsquery {
+#query {
 	padding-left: 70px;
 }
